@@ -6,6 +6,8 @@ public class Movie {
 
     //constructor
     public Movie(){}
+
+    //setactor method
     public void setActor(Actor actor) {
         this.actor = actor;
     }

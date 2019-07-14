@@ -8,19 +8,9 @@ public class Actor {
     private int age;
 
     //constructor
-    public Actor() {
-    }
-
-    //setters
-    public void setName(String name) {
+    public Actor(String name, String gender, int age) {
         this.name = name;
-    }
-
-    public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public void setAge(int age) {
         this.age = age;
     }
 
@@ -38,6 +28,14 @@ public class Actor {
     }
 
 
+    @Override
+    public String toString() {
+        return "Actor{" +
+                "name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 
 

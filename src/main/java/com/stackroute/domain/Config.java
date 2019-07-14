@@ -23,6 +23,12 @@ public class Config {
         return mov;
     }
 
+    //bean for BeanLifecycleDemoBean
+    @Bean
+    public BeanLifecycleDemoBean beanLifecycleDemoBean()
+    {
+        return new BeanLifecycleDemoBean();
+    }
 
 
 

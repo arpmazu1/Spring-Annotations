@@ -27,7 +27,7 @@ public class Actor {
         return age;
     }
 
-
+    // toString Method
     @Override
     public String toString() {
         return "Actor{" +

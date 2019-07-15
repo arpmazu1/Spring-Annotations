@@ -30,6 +30,11 @@ public class Config {
         return new BeanLifecycleDemoBean();
     }
 
+    @Bean
+    public BeanPostProcessorDemoBean beanPostProcessorDemoBean(){
+        return new BeanPostProcessorDemoBean();
+    }
+
 
 }
 

@@ -1,7 +1,7 @@
 package com.stackroute.domain;
 
 public class Actor {
- 
+  
     //Variables
     private String name;
     private String gender;
